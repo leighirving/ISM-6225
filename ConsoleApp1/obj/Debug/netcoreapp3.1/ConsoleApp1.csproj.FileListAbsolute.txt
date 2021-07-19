@@ -1,0 +1,11 @@
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\leigh\Documents\GitHub\FirstConsoleApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
