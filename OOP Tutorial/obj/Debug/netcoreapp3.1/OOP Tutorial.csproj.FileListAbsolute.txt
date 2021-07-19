@@ -1,0 +1,11 @@
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\obj\Debug\netcoreapp3.1\OOP Tutorial.csprojAssemblyReference.cache
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\obj\Debug\netcoreapp3.1\OOP Tutorial.AssemblyInfoInputs.cache
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\obj\Debug\netcoreapp3.1\OOP Tutorial.AssemblyInfo.cs
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\bin\Debug\netcoreapp3.1\OOP Tutorial.exe
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\bin\Debug\netcoreapp3.1\OOP Tutorial.deps.json
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\bin\Debug\netcoreapp3.1\OOP Tutorial.runtimeconfig.json
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\bin\Debug\netcoreapp3.1\OOP Tutorial.runtimeconfig.dev.json
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\bin\Debug\netcoreapp3.1\OOP Tutorial.dll
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\bin\Debug\netcoreapp3.1\OOP Tutorial.pdb
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\obj\Debug\netcoreapp3.1\OOP Tutorial.dll
+C:\Users\leigh\Documents\GitHub\OOP-Tutorial\OOP Tutorial\obj\Debug\netcoreapp3.1\OOP Tutorial.pdb
