@@ -1,0 +1,89 @@
+﻿@model ISM6225_Assignment4.Models.Attributes
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+
+<div class="header">
+    <h2>Details</h2>
+</div>
+
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WaterBody)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WaterBody)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Town)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Town)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.County)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.County)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Owner)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Owner)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Manager)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Manager)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AccessType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BoatSize)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BoatSize)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RampType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RampType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UniversalAccess)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UniversalAccess)
+        </dd>
+    </dl>
+
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+
+</div>

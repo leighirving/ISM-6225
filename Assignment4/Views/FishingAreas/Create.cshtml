@@ -1,0 +1,94 @@
+﻿@model ISM6225_Assignment4.Models.Attributes
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+
+<div class="header">
+    <h2>Create</h2>
+</div>
+
+
+<h4>Fishing Area</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="WaterBody" class="control-label"></label>
+                <input asp-for="WaterBody" class="form-control" />
+                <span asp-validation-for="WaterBody" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Town" class="control-label"></label>
+                <input asp-for="Town" class="form-control" />
+                <span asp-validation-for="Town" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="County" class="control-label"></label>
+                <input asp-for="County" class="form-control" />
+                <span asp-validation-for="County" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owner" class="control-label"></label>
+                <input asp-for="Owner" class="form-control" />
+                <span asp-validation-for="Owner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccessType" class="control-label"></label>
+                <input asp-for="AccessType" class="form-control" />
+                <span asp-validation-for="AccessType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BoatSize" class="control-label"></label>
+                <input asp-for="BoatSize" class="form-control" />
+                <span asp-validation-for="BoatSize" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owner" class="control-label"></label>
+                <input asp-for="Owner" class="form-control" />
+                <span asp-validation-for="Owner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manager" class="control-label"></label>
+                <input asp-for="Manager" class="form-control" />
+                <span asp-validation-for="Manager" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RampType" class="control-label"></label>
+                <input asp-for="RampType" class="form-control" />
+                <span asp-validation-for="RampType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UniversalAccess" class="control-label"></label>
+                <input asp-for="UniversalAccess" class="form-control" />
+                <span asp-validation-for="UniversalAccess" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

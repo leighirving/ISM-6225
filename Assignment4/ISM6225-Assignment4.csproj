@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ISM6225_Assignment4</RootNamespace>
+    <UserSecretsId>b07193de-b951-4dcf-a3e7-5bb31d993bc6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200425204620_MakeIdNullable.cs" />
+    <Compile Remove="Migrations\20200425204620_MakeIdNullable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{d37e2a3e-8545-3a39-9f4f-31827c9124ab}">
+      <Guid>d37e2a3e-8545-3a39-9f4f-31827c9124ab</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chart.js" Version="2.9.3" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.10.1" />
+    <PackageReference Include="IKVM" Version="8.1.5717" />
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+</Project>
